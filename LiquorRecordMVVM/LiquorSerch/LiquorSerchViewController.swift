@@ -8,6 +8,10 @@
 import UIKit
 
 class LiquorSerchViewController: UIViewController {
+    
+    @IBOutlet weak var liquorSearchBar: UISearchBar!
+    @IBOutlet weak var liquorCollectionView: UICollectionView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
