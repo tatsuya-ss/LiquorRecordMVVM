@@ -13,6 +13,8 @@
 		7518C0F8269D2CE000C27C1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7518C0F6269D2CE000C27C1C /* LaunchScreen.storyboard */; };
 		7518C103269D2CE000C27C1C /* LiquorRecordMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7518C102269D2CE000C27C1C /* LiquorRecordMVVMTests.swift */; };
 		7518C10E269D2CE000C27C1C /* LiquorRecordMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7518C10D269D2CE000C27C1C /* LiquorRecordMVVMUITests.swift */; };
+		7518C11D269D2FD300C27C1C /* LiquorRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7518C11C269D2FD300C27C1C /* LiquorRecordViewController.swift */; };
+		7518C11F269D2FEE00C27C1C /* LipuorRecord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7518C11E269D2FEE00C27C1C /* LipuorRecord.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		7518C109269D2CE000C27C1C /* LiquorRecordMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiquorRecordMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7518C10D269D2CE000C27C1C /* LiquorRecordMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquorRecordMVVMUITests.swift; sourceTree = "<group>"; };
 		7518C10F269D2CE000C27C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7518C11C269D2FD300C27C1C /* LiquorRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquorRecordViewController.swift; sourceTree = "<group>"; };
+		7518C11E269D2FEE00C27C1C /* LipuorRecord.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LipuorRecord.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		7518C0EA269D2CDE00C27C1C /* LiquorRecordMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				7518C11B269D2F8D00C27C1C /* LiquorRecord */,
 				7518C0EB269D2CDE00C27C1C /* AppDelegate.swift */,
 				7518C0ED269D2CDE00C27C1C /* SceneDelegate.swift */,
 				7518C0F4269D2CE000C27C1C /* Assets.xcassets */,
@@ -120,6 +125,15 @@
 				7518C10F269D2CE000C27C1C /* Info.plist */,
 			);
 			path = LiquorRecordMVVMUITests;
+			sourceTree = "<group>";
+		};
+		7518C11B269D2F8D00C27C1C /* LiquorRecord */ = {
+			isa = PBXGroup;
+			children = (
+				7518C11C269D2FD300C27C1C /* LiquorRecordViewController.swift */,
+				7518C11E269D2FEE00C27C1C /* LipuorRecord.storyboard */,
+			);
+			path = LiquorRecord;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7518C0F8269D2CE000C27C1C /* LaunchScreen.storyboard in Resources */,
+				7518C11F269D2FEE00C27C1C /* LipuorRecord.storyboard in Resources */,
 				7518C0F5269D2CE000C27C1C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7518C11D269D2FD300C27C1C /* LiquorRecordViewController.swift in Sources */,
 				7518C0EC269D2CDE00C27C1C /* AppDelegate.swift in Sources */,
 				7518C0EE269D2CDE00C27C1C /* SceneDelegate.swift in Sources */,
 			);
